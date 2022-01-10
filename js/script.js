@@ -13,5 +13,10 @@ console.log('JS OK')
 
 // Inizio creando una serie di mail
 const emails = ['marco@libero.it','stefano@gmail.com', 'marcello@outlook.com', 'cassandra@gmail.com' ]
+console.log(emails)
 
 // Faccio inserire all'utente la propria email
+const myEmail = prompt('Qual è la tua email?')
+
+// Attraverso l'input che viene dato controllo se fa parte di quelle registrate
+
