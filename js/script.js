@@ -20,3 +20,10 @@ const myEmail = prompt('Qual è la tua email?')
 
 // Attraverso l'input che viene dato controllo se fa parte di quelle registrate
 
+for (let i = 0; i < emails.length; i++) {
+    if (emails[i] == myEmail) {
+        console.log(`Log in eseguito`)
+    } else {
+        console.log(`Log in fallito, ritenta con una nuova mail`)
+    }
+}
